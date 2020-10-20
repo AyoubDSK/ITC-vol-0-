@@ -19,7 +19,7 @@ namespace ITC__vol_0_
 
         private void addMembre(string FirstName,string LastName,string Dep,string grad,string Email)
         {
-            ProgramITC.ConnectionSql.ExcuteCommand(MembreClass.QueryAdd(FirstName, LastName, Dep, Email));
+            ProgramITC.ConnectionSql.ExcuteCommand(MembreClass.QueryAdd(FirstName,LastName,Dep,grad,Email));
         }
 
         private bool testing(char x)

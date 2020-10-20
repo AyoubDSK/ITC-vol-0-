@@ -71,5 +71,10 @@ namespace ITC__vol_0_.Event
             ProgramITC.activeEvent3();
 
         }
+
+        private void SelectPartenaire_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

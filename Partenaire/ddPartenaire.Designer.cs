@@ -119,6 +119,7 @@
             this.label5.Size = new System.Drawing.Size(180, 29);
             this.label5.TabIndex = 11;
             this.label5.Text = "Add Partenaite";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // ddPartenaire
             // 

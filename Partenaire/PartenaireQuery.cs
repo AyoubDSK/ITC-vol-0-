@@ -10,21 +10,21 @@ namespace ITC__vol_0_.Partenaire
     {
         public static string QueryGetPartenaire(int id)
         {
-            return "select * from partenaire where IdPartenaire = " + id + ";";
+            return "select * from Partenaire where IdPartenaire = " + id + ";";
         }
        public static string QueryGetTable()
         {
-           return " select * from partenaire;";
+           return "select * from Partenaire; ";
                
         }
         public static string QueryGetTableFL()
         {
-            return "select IdPatenaire,Firstname,Lastname  from partenaire;";
+            return "select IdPatenaire,Firstname,Lastname  from Partenaire;";
         }
 
         public static string QueryGetId(string Email)
         {
-            return "select IdPartenaire from partenaire;";
+            return "select IdPartenaire from Partenaire;";
         }
 
         public static string QueryAddPartenaire(string Firstname,string Lastname,string Email)

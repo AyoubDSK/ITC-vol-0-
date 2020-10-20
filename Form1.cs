@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using MySql.Data;
 
 namespace ITC__vol_0_
 {
@@ -46,7 +47,7 @@ namespace ITC__vol_0_
         {
             this.Location = new Point(0, 0);
             InitializeComponent();
-            ProgramITC.ConnectionSql.Connecte();
+            FormHising();
             
         }
 
@@ -57,10 +58,11 @@ namespace ITC__vol_0_
 
         void FormHising()
         {
-            membreUI1.Visible = false;
-            eventUI1.Visible = false;
-            partenaireUI1.Visible = false;
-            teamUI1.Visible = false;
+            membreUI2.Visible = false;
+            eventUI2.Visible = false;
+            partenaireUI2.Visible = false;
+            teamUI2.Visible = false;
+            formationUI1.Visible = false;
         }
 
         private void membre1_Load(object sender, EventArgs e)
@@ -84,7 +86,7 @@ namespace ITC__vol_0_
         {
             // membre button
             FormHising();
-            membreUI1.Visible = true;
+            membreUI2.Visible = true;
 
 
 
@@ -99,22 +101,22 @@ namespace ITC__vol_0_
         {
             // team button
             FormHising();
-            //            teamUI1.Visibl =true;
-            teamUI1.Visible = true;
+            //            teamUI2.Visibl =true;
+            teamUI2.Visible = true;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             // event button
             FormHising();
-            eventUI1.Visible = true;
+            eventUI2.Visible = true;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             // parteanire button
             FormHising();
-            partenaireUI1.Visible = true;
+            partenaireUI2.Visible = true;
 
 
         }
@@ -123,6 +125,7 @@ namespace ITC__vol_0_
         {
             // formation button
             FormHising();
+            formationUI1.Visible = true;
 
         }
 
@@ -135,6 +138,17 @@ namespace ITC__vol_0_
         private void button9_Click(object sender, EventArgs e)
         {
             FormHising();
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            setting setting = new setting();
+            setting.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

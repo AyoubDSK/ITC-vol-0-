@@ -10,7 +10,7 @@ namespace ITC__vol_0_
 
         public static string  QueryGetTeam()
         {
-            return " select Team.Teamname,Firstname,Lastname from Team inner join membre where TeamleaderId= Id ;";
+            return " select Team.Teamname,Firstname,Lastname from Team inner join Membre where TeamleaderId= Id ;";
         }
       public static string returnQueryAdd(string TeamName,int Id)
         {

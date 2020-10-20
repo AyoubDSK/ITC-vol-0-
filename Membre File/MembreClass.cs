@@ -24,7 +24,7 @@ namespace ITC__vol_0_
         public static string QueryAdd(string firstname, string lastname, string dep,string Grad, string email = "")
         {
 
-            return "insert  into  Membre(FirstName,LastName,dep,Grad,email) values ('" + firstname + "' , '" + lastname + "','" + dep + "','"+Grad+"',' "+ email + "');";
+            return "insert  into  Membre(FirstName,LastName,dep,grad,email) values ('" + firstname + "' , '" + lastname + "','" + dep + "','"+Grad+"',' "+ email + "');";
        
         }
 

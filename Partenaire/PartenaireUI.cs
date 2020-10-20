@@ -19,17 +19,15 @@ namespace ITC__vol_0_.Partenaire
         void chargeView(object o , EventArgs e)
         {
             DataTable data = new DataTable()   ;
+            if (ProgramITC.ConnectionSql != null)
+            {
+                data = ProgramITC.ConnectionSql.ReturnVal(Partenaire.PartenaireQuery.QueryGetTable());
+                dataGridView1.DataSource = data;
 
-            data = ProgramITC.ConnectionSql.ReturnVal(Partenaire.PartenaireQuery.QueryGetTable());
-
-            dataGridView1.DataSource = data;
-           
-                Firstname.Text ="";
-                Lastname.Text ="";
+                Firstname.Text = "";
+                Lastname.Text = "";
                 Email.Text = "";
-               
-           
-
+            }
         }
         
 
@@ -62,9 +60,10 @@ namespace ITC__vol_0_.Partenaire
         {
             InitializeComponent();
             dataGridView1.MultiSelect = true;
-
             ProgramITC.refleshPartenaire += chargeView;
             chargeView(null,EventArgs.Empty);
+
+          
         }
 
         private void button1_Click(object sender, EventArgs e)

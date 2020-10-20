@@ -14,9 +14,13 @@ namespace ITC__vol_0_
         [STAThread]
         static void Main()
         {
+
+          
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+          
             Application.Run(new Global());
+         
         }
     }
 }

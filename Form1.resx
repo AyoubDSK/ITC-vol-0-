@@ -148,7 +148,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -232,7 +232,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -421,7 +421,7 @@
     <value>0, 40</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>254, 636</value>
+    <value>254, 631</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -436,7 +436,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -524,7 +524,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -611,7 +611,7 @@ Control the team members
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -699,7 +699,7 @@ Partenaire
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -785,7 +785,7 @@ His skills ... the events he participated in
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -869,7 +869,7 @@ His skills ... the events he participated in
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -923,91 +923,112 @@ His skills ... the events he participated in
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
-  <data name="partenaireUI1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 66</value>
+  <data name="teamUI2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 46</value>
   </data>
-  <data name="partenaireUI1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1274, 610</value>
+  <data name="teamUI2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1314, 625</value>
   </data>
-  <data name="partenaireUI1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;partenaireUI1.Name" xml:space="preserve">
-    <value>partenaireUI1</value>
-  </data>
-  <data name="&gt;&gt;partenaireUI1.Type" xml:space="preserve">
-    <value>ITC__vol_0_.Partenaire.PartenaireUI, ITC (vol 0), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;partenaireUI1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;partenaireUI1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="eventUI1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 66</value>
-  </data>
-  <data name="eventUI1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1274, 610</value>
-  </data>
-  <data name="eventUI1.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;eventUI1.Name" xml:space="preserve">
-    <value>eventUI1</value>
-  </data>
-  <data name="&gt;&gt;eventUI1.Type" xml:space="preserve">
-    <value>ITC__vol_0_.Event.EventUI, ITC (vol 0), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;eventUI1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;eventUI1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="membreUI1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 66</value>
-  </data>
-  <data name="membreUI1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1314, 610</value>
-  </data>
-  <data name="membreUI1.TabIndex" type="System.Int32, mscorlib">
+  <data name="teamUI2.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;membreUI1.Name" xml:space="preserve">
-    <value>membreUI1</value>
+  <data name="&gt;&gt;teamUI2.Name" xml:space="preserve">
+    <value>teamUI2</value>
   </data>
-  <data name="&gt;&gt;membreUI1.Type" xml:space="preserve">
-    <value>ITC__vol_0_.MembreUI, ITC (vol 0), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;membreUI1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;membreUI1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="teamUI1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 66</value>
-  </data>
-  <data name="teamUI1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1295, 591</value>
-  </data>
-  <data name="teamUI1.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;teamUI1.Name" xml:space="preserve">
-    <value>teamUI1</value>
-  </data>
-  <data name="&gt;&gt;teamUI1.Type" xml:space="preserve">
+  <data name="&gt;&gt;teamUI2.Type" xml:space="preserve">
     <value>ITC__vol_0_.TeamUI, ITC (vol 0), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;teamUI1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;teamUI2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;teamUI1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;teamUI2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="partenaireUI2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 46</value>
+  </data>
+  <data name="partenaireUI2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1314, 625</value>
+  </data>
+  <data name="partenaireUI2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;partenaireUI2.Name" xml:space="preserve">
+    <value>partenaireUI2</value>
+  </data>
+  <data name="&gt;&gt;partenaireUI2.Type" xml:space="preserve">
+    <value>ITC__vol_0_.Partenaire.PartenaireUI, ITC (vol 0), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;partenaireUI2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;partenaireUI2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="membreUI2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 46</value>
+  </data>
+  <data name="membreUI2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1314, 613</value>
+  </data>
+  <data name="membreUI2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;membreUI2.Name" xml:space="preserve">
+    <value>membreUI2</value>
+  </data>
+  <data name="&gt;&gt;membreUI2.Type" xml:space="preserve">
+    <value>ITC__vol_0_.MembreUI, ITC (vol 0), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;membreUI2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;membreUI2.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="eventUI2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 46</value>
+  </data>
+  <data name="eventUI2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1293, 625</value>
+  </data>
+  <data name="eventUI2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;eventUI2.Name" xml:space="preserve">
+    <value>eventUI2</value>
+  </data>
+  <data name="&gt;&gt;eventUI2.Type" xml:space="preserve">
+    <value>ITC__vol_0_.Event.EventUI, ITC (vol 0), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;eventUI2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;eventUI2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="formationUI1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 46</value>
+  </data>
+  <data name="formationUI1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1302, 625</value>
+  </data>
+  <data name="formationUI1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;formationUI1.Name" xml:space="preserve">
+    <value>formationUI1</value>
+  </data>
+  <data name="&gt;&gt;formationUI1.Type" xml:space="preserve">
+    <value>ITC__vol_0_.Formation.FormationUI, ITC (vol 0), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;formationUI1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;formationUI1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1020,6 +1041,9 @@ His skills ... the events he participated in
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1558, 688</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>IT community </value>

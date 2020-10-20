@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>ITC__vol_0_</RootNamespace>
     <AssemblyName>ITC %28vol 0%29</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -60,6 +61,31 @@
     <Compile Include="Event\SelectPartenaire.Designer.cs">
       <DependentUpon>SelectPartenaire.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formation\AddFormation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formation\AddFormation.Designer.cs">
+      <DependentUpon>AddFormation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formation\FormationQuery.cs" />
+    <Compile Include="Formation\FormationUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formation\FormationUI.Designer.cs">
+      <DependentUpon>FormationUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formation\SelectMembre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formation\SelectMembre.Designer.cs">
+      <DependentUpon>SelectMembre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formation\SelectPartenaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formation\SelectPartenaire.Designer.cs">
+      <DependentUpon>SelectPartenaire.cs</DependentUpon>
+    </Compile>
     <Compile Include="Partenaire\PartenaireUI.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -67,6 +93,13 @@
       <DependentUpon>PartenaireUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Partenaire\PartenireSystem.cs" />
+    <Compile Include="setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setting.Designer.cs">
+      <DependentUpon>setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settingroot.cs" />
     <Compile Include="Skill\AddSkill.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,8 +219,23 @@
     <EmbeddedResource Include="Event\SelectPartenaire.resx">
       <DependentUpon>SelectPartenaire.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formation\AddFormation.resx">
+      <DependentUpon>AddFormation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formation\FormationUI.resx">
+      <DependentUpon>FormationUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formation\SelectMembre.resx">
+      <DependentUpon>SelectMembre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formation\SelectPartenaire.resx">
+      <DependentUpon>SelectPartenaire.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Partenaire\PartenaireUI.resx">
       <DependentUpon>PartenaireUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setting.resx">
+      <DependentUpon>setting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Skill\AddSkill.resx">
       <DependentUpon>AddSkill.cs</DependentUpon>
@@ -242,6 +290,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Team\TeamUI.resx">
       <DependentUpon>TeamUI.cs</DependentUpon>

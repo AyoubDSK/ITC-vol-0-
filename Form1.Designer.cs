@@ -1,4 +1,6 @@
-﻿namespace ITC__vol_0_
+﻿using ITC__vol_0_.Event;
+
+namespace ITC__vol_0_
 {
     partial class Global
     {
@@ -31,6 +33,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Global));
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
@@ -56,11 +59,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.partenaireUI1 = new ITC__vol_0_.Partenaire.PartenaireUI();
-            this.eventUI1 = new ITC__vol_0_.Event.EventUI();
-            this.membreUI1 = new ITC__vol_0_.MembreUI();
-            this.teamUI1 = new ITC__vol_0_.TeamUI();
+            this.teamUI2 = new ITC__vol_0_.TeamUI();
+            this.partenaireUI2 = new ITC__vol_0_.Partenaire.PartenaireUI();
+            this.membreUI2 = new ITC__vol_0_.MembreUI();
+            this.eventUI2 = new ITC__vol_0_.Event.EventUI();
+            this.formationUI1 = new ITC__vol_0_.Formation.FormationUI();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -86,6 +89,14 @@
             this.panel1.Controls.Add(this.button8);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button7
+            // 
+            resources.ApplyResources(this.button7, "button7");
+            this.button7.Name = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click_1);
             // 
             // button8
             // 
@@ -250,40 +261,40 @@
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
             // 
-            // button7
+            // teamUI2
             // 
-            resources.ApplyResources(this.button7, "button7");
-            this.button7.Name = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.teamUI2, "teamUI2");
+            this.teamUI2.Name = "teamUI2";
             // 
-            // partenaireUI1
+            // partenaireUI2
             // 
-            resources.ApplyResources(this.partenaireUI1, "partenaireUI1");
-            this.partenaireUI1.Name = "partenaireUI1";
+            resources.ApplyResources(this.partenaireUI2, "partenaireUI2");
+            this.partenaireUI2.Name = "partenaireUI2";
             // 
-            // eventUI1
+            // membreUI2
             // 
-            resources.ApplyResources(this.eventUI1, "eventUI1");
-            this.eventUI1.Name = "eventUI1";
+            resources.ApplyResources(this.membreUI2, "membreUI2");
+            this.membreUI2.Name = "membreUI2";
             // 
-            // membreUI1
+            // eventUI2
             // 
-            resources.ApplyResources(this.membreUI1, "membreUI1");
-            this.membreUI1.Name = "membreUI1";
+            resources.ApplyResources(this.eventUI2, "eventUI2");
+            this.eventUI2.Name = "eventUI2";
             // 
-            // teamUI1
+            // formationUI1
             // 
-            resources.ApplyResources(this.teamUI1, "teamUI1");
-            this.teamUI1.Name = "teamUI1";
+            resources.ApplyResources(this.formationUI1, "formationUI1");
+            this.formationUI1.Name = "formationUI1";
             // 
             // Global
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.partenaireUI1);
-            this.Controls.Add(this.eventUI1);
-            this.Controls.Add(this.membreUI1);
-            this.Controls.Add(this.teamUI1);
+            this.Controls.Add(this.formationUI1);
+            this.Controls.Add(this.teamUI2);
+            this.Controls.Add(this.partenaireUI2);
+            this.Controls.Add(this.membreUI2);
+            this.Controls.Add(this.eventUI2);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel6);
@@ -343,12 +354,17 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label6;
-        private TeamUI teamUI1;
-        private MembreUI membreUI1;
-        private Event.EventUI eventUI1;
-        private Partenaire.PartenaireUI partenaireUI1;
+        private TeamUI teamUI1  = new TeamUI();
+        private MembreUI membreUI1 =new MembreUI();
+        private Event.EventUI eventUI1 =new  EventUI();
+        private Partenaire.PartenaireUI partenaireUI1= new Partenaire.PartenaireUI();
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button7;
+        private EventUI eventUI2;
+        private MembreUI membreUI2;
+        private Partenaire.PartenaireUI partenaireUI2;
+        private TeamUI teamUI2;
+        private Formation.FormationUI formationUI1;
     }
 }
 

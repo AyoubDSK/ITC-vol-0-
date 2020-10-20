@@ -124,5 +124,10 @@ namespace ITC__vol_0_.Event
         {
 
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

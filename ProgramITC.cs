@@ -7,7 +7,8 @@ namespace ITC__vol_0_
 {
     public static class ProgramITC
     {
-        public static ConnectionSql ConnectionSql = new ConnectionSql("localhost","3306","12345","root","itc");
+        public static string host, user, port, pass, database;
+        public static ConnectionSql ConnectionSql = new ConnectionSql();
         public static event EventHandler refleshMembre;//after adding membre
         public static event EventHandler refleshAddTeamMembre;// adding team event  
 
